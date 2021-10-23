@@ -127,7 +127,7 @@ private func netWorkRequest(_ target: TargetType,
             do {
                 let jsonData = try JSON(data: response.data)
                   debugPrint("====",target.path)
-                 SZPLog.d("返回的结果是: \(jsonData)")
+//                 SZPLog.d("返回的结果是: \(jsonData)")
                 let respModel = ResponseModel()
 
                 if !validateResponse(response: jsonData.dictionary, needShowFailAlert: needShowFailAlert, target.path, failure: failureCallback) {
@@ -216,7 +216,7 @@ private func validateResponse(response: [String: JSON]?, needShowFailAlert: Bool
 }
 
 private func errorHandler(code: Int, message: String, needShowFailAlert: Bool, _ path :String?,failure: RequestFailureCallback?) {
-    SZPLog.e("发生错误：\(String(describing: path))\(code)--\(message)")
+    print("发生错误：\(String(describing: path))\(code)--\(message)")
     let model = ResponseModel()
     model.code = code
     model.message = message
@@ -230,9 +230,9 @@ private func errorHandler(code: Int, message: String, needShowFailAlert: Bool, _
             
             if(message != "你没有购买图纸查看权限" && message != "NOT_VIP"){
                 
-                SZPHudExtension.szp_showPlainText(message:message)
+//                SZPHudExtension.szp_showPlainText(message:message)
             }
-              SZPAutoProgressHUD.hideHud()
+//              SZPAutoProgressHUD.hideHud()
             
             if(message == "您要查询的动态不存在或已删除"){
                 
@@ -308,7 +308,7 @@ private let myEndpointClosure = {(target: TargetType) -> Endpoint in
 func kCheckoutLoginState() -> Bool {
     var islogin: Bool = false
     if let token = kUserDefaultRead(kdefaultToken), !token.isEmpty {
-        SZPLog.d("当前用户token是：\(token)")
+        print("当前用户token是：\(token)")
         islogin = true
     }
     return islogin
@@ -324,12 +324,12 @@ private let requestClosure = { (endpoint: Endpoint, done: MoyaProvider.RequestRe
         
         
         if let requestData = request.httpBody {
-            SZPLog.i("请求的url：\(request.url!)" + "\n" + "\(request.httpMethod ?? "")" + "发送参数" + "\(String(data: request.httpBody!, encoding: String.Encoding.utf8) ?? "")")
+            print("请求的url：\(request.url!)" + "\n" + "\(request.httpMethod ?? "")" + "发送参数" + "\(String(data: request.httpBody!, encoding: String.Encoding.utf8) ?? "")")
         } else {
-            SZPLog.e("请求的url：\(request.url!)" + "\(String(describing: request.httpMethod))")
+            print("请求的url：\(request.url!)" + "\(String(describing: request.httpMethod))")
         }
         if let header = request.allHTTPHeaderFields {
-            SZPLog.i("请求头内容\(header)")
+            print("请求头内容\(header)")
         }
         done(.success(request))
     } catch {
@@ -368,13 +368,13 @@ private let kProvider = MoyaProvider<MultiTarget>(endpointClosure: myEndpointClo
 
 /// NetworkActivityPlugin插件用来监听网络请求，界面上做相应的展示
 private let networkPlugin = NetworkActivityPlugin.init { (changeType, _ ) in
-    SZPLog.i("networkPlugin \(changeType)")
+    print("networkPlugin \(changeType)")
     // targetType 是当前请求的基本信息
     switch changeType {
     case .began:
-        SZPLog.i("开始请求网络")
+        print("开始请求网络")
     case .ended:
-        SZPLog.i("结束")
+        print("结束")
     }
 }
 

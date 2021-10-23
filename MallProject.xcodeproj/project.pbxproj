@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0C8BB8051C822A67C5C4857F /* libPods-MallProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4A6EC54794E6096404901F /* libPods-MallProject.a */; };
-		9BECCE522723C789002ECC75 /* SZPMoyaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE4F2723C3AA002ECC75 /* SZPMoyaConfig.swift */; };
-		9BECCE532723CAD9002ECC75 /* SZPNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE4E2723C3A9002ECC75 /* SZPNetworkManager.swift */; };
-		9BECCE542723CAEF002ECC75 /* SZPAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE482723C397002ECC75 /* SZPAPI.swift */; };
+		9BECCE552723D879002ECC75 /* SZPNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE4E2723C3A9002ECC75 /* SZPNetworkManager.swift */; };
+		9BECCE562723D87C002ECC75 /* SZPMoyaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE4F2723C3AA002ECC75 /* SZPMoyaConfig.swift */; };
+		9BECCE572723D8E3002ECC75 /* SZPAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE482723C397002ECC75 /* SZPAPI.swift */; };
 		E2065E46271ADB7C00C0209F /* MALProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2065E45271ADB7B00C0209F /* MALProductViewController.swift */; };
 		E2065E49271AEA6B00C0209F /* MALVideoPackageDetailBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2065E48271AEA6B00C0209F /* MALVideoPackageDetailBottomView.swift */; };
 		E2065E4B271AF14C00C0209F /* MALWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2065E4A271AF14C00C0209F /* MALWebViewController.swift */; };
@@ -656,12 +656,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BECCE542723CAEF002ECC75 /* SZPAPI.swift in Sources */,
+				9BECCE572723D8E3002ECC75 /* SZPAPI.swift in Sources */,
 				E2D05D35270D4D0900B51BD6 /* MALLocalizationTool.swift in Sources */,
 				E2AF6B79271D3882006AA384 /* MALLoginViewController.swift in Sources */,
 				E23AC19527130E5A0023D6E9 /* MALMallCartSubviews.swift in Sources */,
 				E2E7AA102704507200EFE774 /* ViewController.swift in Sources */,
-				9BECCE532723CAD9002ECC75 /* SZPNetworkManager.swift in Sources */,
 				E24F5B142723B8D400847229 /* MALRegisteredAddressViewController.swift in Sources */,
 				E2D05D31270D4BAC00B51BD6 /* AppManager.swift in Sources */,
 				E2065E46271ADB7C00C0209F /* MALProductViewController.swift in Sources */,
@@ -681,12 +680,13 @@
 				E2D05D54270D6F0800B51BD6 /* MALMallModel.swift in Sources */,
 				E20A8D272721CA31003E0D0F /* MALRegisterAgreeView.swift in Sources */,
 				E2D05D29270D474000B51BD6 /* NSUserDefaultsExtension.swift in Sources */,
+				9BECCE562723D87C002ECC75 /* SZPMoyaConfig.swift in Sources */,
 				E2D05D2B270D47F700B51BD6 /* UIColorExtension.swift in Sources */,
 				E2065E4B271AF14C00C0209F /* MALWebViewController.swift in Sources */,
 				E2D05D33270D4CA900B51BD6 /* MALFoundationExtension.swift in Sources */,
 				E2D05D2D270D496700B51BD6 /* MALBaseViewController.swift in Sources */,
-				9BECCE522723C789002ECC75 /* SZPMoyaConfig.swift in Sources */,
 				E2D05D49270D6D8E00B51BD6 /* MALBannerScrollView.swift in Sources */,
+				9BECCE552723D879002ECC75 /* SZPNetworkManager.swift in Sources */,
 				E2E7AA162704507200EFE774 /* MallProject.xcdatamodeld in Sources */,
 				E2D05D5E270D7F0C00B51BD6 /* MALRecommendedProductsView.swift in Sources */,
 				E2D05D57270D77C300B51BD6 /* MALHomeCourseView.swift in Sources */,
