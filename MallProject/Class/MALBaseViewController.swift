@@ -39,7 +39,12 @@ class MALBaseViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-     
+        let aes = MALAes.Encode_AES_ECB(strToEncode: "abc")
+        print("ses === ", aes)
+        
+        MALLoginViewModel.init().loginWithPwd(pwd: "123", userCode: "123", userType: .user) { str in
+        }
+        
   
         view.backgroundColor = UIColor.AppColor.searchBgColor
 

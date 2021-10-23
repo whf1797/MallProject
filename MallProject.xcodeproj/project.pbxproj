@@ -11,6 +11,10 @@
 		9BECCE552723D879002ECC75 /* SZPNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE4E2723C3A9002ECC75 /* SZPNetworkManager.swift */; };
 		9BECCE562723D87C002ECC75 /* SZPMoyaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE4F2723C3AA002ECC75 /* SZPMoyaConfig.swift */; };
 		9BECCE572723D8E3002ECC75 /* SZPAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE482723C397002ECC75 /* SZPAPI.swift */; };
+		9BECCE5B2723DDB3002ECC75 /* MALAes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE5A2723DDB3002ECC75 /* MALAes.swift */; };
+		9BECCE5F2723E194002ECC75 /* MALAPILogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE5E2723E194002ECC75 /* MALAPILogin.swift */; };
+		9BECCE612723E672002ECC75 /* MALLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE602723E672002ECC75 /* MALLoginViewModel.swift */; };
+		9BECCE632723E7FF002ECC75 /* MALLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE622723E7FF002ECC75 /* MALLoginModel.swift */; };
 		E2065E46271ADB7C00C0209F /* MALProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2065E45271ADB7B00C0209F /* MALProductViewController.swift */; };
 		E2065E49271AEA6B00C0209F /* MALVideoPackageDetailBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2065E48271AEA6B00C0209F /* MALVideoPackageDetailBottomView.swift */; };
 		E2065E4B271AF14C00C0209F /* MALWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2065E4A271AF14C00C0209F /* MALWebViewController.swift */; };
@@ -89,6 +93,10 @@
 		9BECCE4C2723C3A2002ECC75 /* SZPLoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SZPLoginViewModel.swift; sourceTree = "<group>"; };
 		9BECCE4E2723C3A9002ECC75 /* SZPNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SZPNetworkManager.swift; sourceTree = "<group>"; };
 		9BECCE4F2723C3AA002ECC75 /* SZPMoyaConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SZPMoyaConfig.swift; sourceTree = "<group>"; };
+		9BECCE5A2723DDB3002ECC75 /* MALAes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALAes.swift; sourceTree = "<group>"; };
+		9BECCE5E2723E194002ECC75 /* MALAPILogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALAPILogin.swift; sourceTree = "<group>"; };
+		9BECCE602723E672002ECC75 /* MALLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALLoginViewModel.swift; sourceTree = "<group>"; };
+		9BECCE622723E7FF002ECC75 /* MALLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALLoginModel.swift; sourceTree = "<group>"; };
 		B4D493BD485E9C2CCBC42549 /* Pods-MallProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MallProject.debug.xcconfig"; path = "Target Support Files/Pods-MallProject/Pods-MallProject.debug.xcconfig"; sourceTree = "<group>"; };
 		E2065E45271ADB7B00C0209F /* MALProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MALProductViewController.swift; sourceTree = "<group>"; };
 		E2065E48271AEA6B00C0209F /* MALVideoPackageDetailBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALVideoPackageDetailBottomView.swift; sourceTree = "<group>"; };
@@ -196,13 +204,25 @@
 		9BECCE472723C37C002ECC75 /* NetManager */ = {
 			isa = PBXGroup;
 			children = (
+				9BECCE592723DC5F002ECC75 /* login */,
 				9BECCE482723C397002ECC75 /* SZPAPI.swift */,
 				9BECCE492723C397002ECC75 /* SZPAPILogin.swift */,
 				9BECCE4C2723C3A2002ECC75 /* SZPLoginViewModel.swift */,
 				9BECCE4F2723C3AA002ECC75 /* SZPMoyaConfig.swift */,
 				9BECCE4E2723C3A9002ECC75 /* SZPNetworkManager.swift */,
+				9BECCE5A2723DDB3002ECC75 /* MALAes.swift */,
 			);
 			path = NetManager;
+			sourceTree = "<group>";
+		};
+		9BECCE592723DC5F002ECC75 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				9BECCE5E2723E194002ECC75 /* MALAPILogin.swift */,
+				9BECCE602723E672002ECC75 /* MALLoginViewModel.swift */,
+				9BECCE622723E7FF002ECC75 /* MALLoginModel.swift */,
+			);
+			path = login;
 			sourceTree = "<group>";
 		};
 		E2065E47271AEA2900C0209F /* mallCarViews */ = {
@@ -662,6 +682,7 @@
 				E23AC19527130E5A0023D6E9 /* MALMallCartSubviews.swift in Sources */,
 				E2E7AA102704507200EFE774 /* ViewController.swift in Sources */,
 				E24F5B142723B8D400847229 /* MALRegisteredAddressViewController.swift in Sources */,
+				9BECCE5B2723DDB3002ECC75 /* MALAes.swift in Sources */,
 				E2D05D31270D4BAC00B51BD6 /* AppManager.swift in Sources */,
 				E2065E46271ADB7C00C0209F /* MALProductViewController.swift in Sources */,
 				E2065E52271AF33F00C0209F /* UIView+PPBadgeView.swift in Sources */,
@@ -688,9 +709,11 @@
 				E2D05D49270D6D8E00B51BD6 /* MALBannerScrollView.swift in Sources */,
 				9BECCE552723D879002ECC75 /* SZPNetworkManager.swift in Sources */,
 				E2E7AA162704507200EFE774 /* MallProject.xcdatamodeld in Sources */,
+				9BECCE612723E672002ECC75 /* MALLoginViewModel.swift in Sources */,
 				E2D05D5E270D7F0C00B51BD6 /* MALRecommendedProductsView.swift in Sources */,
 				E2D05D57270D77C300B51BD6 /* MALHomeCourseView.swift in Sources */,
 				E2065E62271BCBEE00C0209F /* SZPUISearchBarExtension.swift in Sources */,
+				9BECCE5F2723E194002ECC75 /* MALAPILogin.swift in Sources */,
 				E2065E5D271B342200C0209F /* MALSearchViewController.swift in Sources */,
 				E2D05D51270D6E9600B51BD6 /* ZPageControl.swift in Sources */,
 				E20A8D2D27227A97003E0D0F /* MALRegistereMembersVController.swift in Sources */,
@@ -702,6 +725,7 @@
 				E2D05D39270D4D8400B51BD6 /* MALUISearchBarExtension.swift in Sources */,
 				E2E7AA0E2704507200EFE774 /* SceneDelegate.swift in Sources */,
 				E2D05D25270D46A100B51BD6 /* MALPredefine.swift in Sources */,
+				9BECCE632723E7FF002ECC75 /* MALLoginModel.swift in Sources */,
 				E2D05D60270D80FC00B51BD6 /* MALButtonExtension.swift in Sources */,
 				E2D05D4F270D6E9600B51BD6 /* ZCycleView.swift in Sources */,
 				E2D05D46270D5C1800B51BD6 /* MALMyViewController.swift in Sources */,

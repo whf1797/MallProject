@@ -59,7 +59,8 @@ enum SZPAPILogin {
 
 extension SZPAPILogin: TargetType {
     var baseURL: URL {
-        return URL.init(string: KMoyaBaseURL)!
+//        return URL.init(string: KMoyaBaseURL)!
+        return URL.init(string: "KMoyaBaseURL")!
     }
     var path: String {
         switch self {

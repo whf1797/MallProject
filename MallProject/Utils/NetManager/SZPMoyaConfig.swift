@@ -12,8 +12,8 @@ import UIKit
 /// 定义基础域名
 //let KMoyaBaseURL =  "https://mockapi.eolinker.com/Sh1VQkY38eaf6cd84ccb708b8582d2c1f9996af373bbdf1"
 //let KMoyaBaseURL = "https://api-dev.ycswxj.cn" // 测试地址
-let KMoyaBaseURL = "https://api.ycswxj.com"  // 线上地址
-//let KMoyaBaseURL = "http://10.0.0.18:8081"  // 本地地址
+//let KMoyaBaseURL = "https://api.ycswxj.com"  // 线上地址
+let KMoyaBaseURL = "http://101.37.24.131:9888"  // 本地地址
 
 
 //https://api.ycswxj.com

@@ -127,7 +127,7 @@ private func netWorkRequest(_ target: TargetType,
             do {
                 let jsonData = try JSON(data: response.data)
                   debugPrint("====",target.path)
-//                 SZPLog.d("返回的结果是: \(jsonData)")
+                 print("返回的结果是: \(jsonData)")
                 let respModel = ResponseModel()
 
                 if !validateResponse(response: jsonData.dictionary, needShowFailAlert: needShowFailAlert, target.path, failure: failureCallback) {
