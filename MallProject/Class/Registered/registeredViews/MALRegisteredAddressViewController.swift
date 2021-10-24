@@ -6,7 +6,7 @@
 //
 
 import UIKit
-/// 注册会员第三步VC
+/// 注册会员第四步VC
 class MALRegisteredAddressViewController: MALBaseViewController {
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -182,10 +182,19 @@ class MALRegisteredAddressViewController: MALBaseViewController {
         view.setTitleColor(UIColor.white, for: .normal)
         view.backgroundColor = UIColor.AppColor.main
         view.radiusView(MAL_Value(36) / 2.0)
-    
+        view.addTarget(self, action: #selector(nextRegister), for: .touchUpInside)
         return view
      
     }()
+    
+    @objc func nextRegister(){
+        
+        let pushvc = MALRegsiterdCorrespondingVC()
+        
+        self.navigationController?.pushViewController(pushvc)
+        
+        
+    }
     
 
 }

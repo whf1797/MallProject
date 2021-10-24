@@ -48,7 +48,7 @@ extension MALAPILogin: TargetType {
         switch self {
         case let .loginWithPwd(pwd, userCode , userType):
             print("密码登录")
-            parameters["loginType"] = "1"
+            parameters["loginType"] = 1
             parameters["password"] = pwd
             parameters["userCode"] = userCode
             
@@ -60,7 +60,7 @@ extension MALAPILogin: TargetType {
         }
 //        return .requestCompositeParameters(bodyParameters: parameters, bodyEncoding: URLEncoding.default, urlParameters: [:])
 //        return .requestCompositeData(bodyData: <#T##Data#>, urlParameters: <#T##[String : Any]#>)
-        return .requestParameters(parameters: parameters, encoding: URLEncoding.httpBody)
+        return .requestParameters(parameters: parameters, encoding: JSONEncoding.default)
     }
     
     var headers: [String : String]? {
@@ -69,7 +69,7 @@ extension MALAPILogin: TargetType {
         
         dict = ["Content-Type":"application/json"]
 //        dict["APP-Token"] =  "" //
-        dict["test"] = "%^%$7"
+        dict["test"] = "1234"
        
         return dict
     }

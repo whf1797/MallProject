@@ -322,6 +322,7 @@ private let requestClosure = { (endpoint: Endpoint, done: MoyaProvider.RequestRe
         request.timeoutInterval = requestTimeOut
         
         
+ 
         
         if let requestData = request.httpBody {
             print("请求的url：\(request.url!)" + "\n" + "\(request.httpMethod ?? "")" + "发送参数" + "\(String(data: request.httpBody!, encoding: String.Encoding.utf8) ?? "")")

@@ -8,7 +8,7 @@
 //
 
 import UIKit
-/// 注册会员第二步VC
+/// 注册会员第三步VC
 class MALRegisteredNextViewController: MALBaseViewController {
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
