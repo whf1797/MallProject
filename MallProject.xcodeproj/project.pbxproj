@@ -15,6 +15,25 @@
 		9BECCE5F2723E194002ECC75 /* MALAPILogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE5E2723E194002ECC75 /* MALAPILogin.swift */; };
 		9BECCE612723E672002ECC75 /* MALLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE602723E672002ECC75 /* MALLoginViewModel.swift */; };
 		9BECCE632723E7FF002ECC75 /* MALLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE622723E7FF002ECC75 /* MALLoginModel.swift */; };
+		9BECCE6627240690002ECC75 /* MALApiHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE6527240690002ECC75 /* MALApiHome.swift */; };
+		9BECCE68272406DE002ECC75 /* MALHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE67272406DE002ECC75 /* MALHomeViewModel.swift */; };
+		9BECCE6A27253419002ECC75 /* MALHomeModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE6927253419002ECC75 /* MALHomeModel1.swift */; };
+		9BECCE6D2725598E002ECC75 /* MALApiUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE6C2725598E002ECC75 /* MALApiUser.swift */; };
+		9BECCE6F27255C8A002ECC75 /* MALUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE6E27255C8A002ECC75 /* MALUserViewModel.swift */; };
+		9BECCE7127255CE9002ECC75 /* MALUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE7027255CE9002ECC75 /* MALUserModel.swift */; };
+		9BECCE7427257744002ECC75 /* MALApiOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE7327257744002ECC75 /* MALApiOrder.swift */; };
+		9BECCE7627257A01002ECC75 /* MALOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE7527257A01002ECC75 /* MALOrderViewModel.swift */; };
+		9BECCE7827257AA4002ECC75 /* MALOrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE7727257AA4002ECC75 /* MALOrderModel.swift */; };
+		9BECCE7B2725827E002ECC75 /* MALApiCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE7A2725827E002ECC75 /* MALApiCart.swift */; };
+		9BECCE7D27258480002ECC75 /* MALCartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE7C27258480002ECC75 /* MALCartViewModel.swift */; };
+		9BECCE7F272584F4002ECC75 /* MALCartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE7E272584F4002ECC75 /* MALCartModel.swift */; };
+		9BECCE82272589C4002ECC75 /* MALApiPro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE81272589C4002ECC75 /* MALApiPro.swift */; };
+		9BECCE8627258A84002ECC75 /* MALProModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE8527258A83002ECC75 /* MALProModel.swift */; };
+		9BECCE8827258BBB002ECC75 /* MALProViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE8727258BBB002ECC75 /* MALProViewModel.swift */; };
+		9BECCE8B27259078002ECC75 /* MALApiSms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE8A27259078002ECC75 /* MALApiSms.swift */; };
+		9BECCE8D27259233002ECC75 /* MALSmsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE8C27259233002ECC75 /* MALSmsViewModel.swift */; };
+		9BECCE8F272592D4002ECC75 /* MALSmsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECCE8E272592D3002ECC75 /* MALSmsModel.swift */; };
+		9BECCE912725943F002ECC75 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 9BECCE902725943F002ECC75 /* File */; };
 		E2065E46271ADB7C00C0209F /* MALProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2065E45271ADB7B00C0209F /* MALProductViewController.swift */; };
 		E2065E49271AEA6B00C0209F /* MALVideoPackageDetailBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2065E48271AEA6B00C0209F /* MALVideoPackageDetailBottomView.swift */; };
 		E2065E4B271AF14C00C0209F /* MALWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2065E4A271AF14C00C0209F /* MALWebViewController.swift */; };
@@ -97,6 +116,25 @@
 		9BECCE5E2723E194002ECC75 /* MALAPILogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALAPILogin.swift; sourceTree = "<group>"; };
 		9BECCE602723E672002ECC75 /* MALLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALLoginViewModel.swift; sourceTree = "<group>"; };
 		9BECCE622723E7FF002ECC75 /* MALLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALLoginModel.swift; sourceTree = "<group>"; };
+		9BECCE6527240690002ECC75 /* MALApiHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALApiHome.swift; sourceTree = "<group>"; };
+		9BECCE67272406DE002ECC75 /* MALHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALHomeViewModel.swift; sourceTree = "<group>"; };
+		9BECCE6927253419002ECC75 /* MALHomeModel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALHomeModel1.swift; sourceTree = "<group>"; };
+		9BECCE6C2725598E002ECC75 /* MALApiUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALApiUser.swift; sourceTree = "<group>"; };
+		9BECCE6E27255C8A002ECC75 /* MALUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALUserViewModel.swift; sourceTree = "<group>"; };
+		9BECCE7027255CE9002ECC75 /* MALUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALUserModel.swift; sourceTree = "<group>"; };
+		9BECCE7327257744002ECC75 /* MALApiOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALApiOrder.swift; sourceTree = "<group>"; };
+		9BECCE7527257A01002ECC75 /* MALOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALOrderViewModel.swift; sourceTree = "<group>"; };
+		9BECCE7727257AA4002ECC75 /* MALOrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALOrderModel.swift; sourceTree = "<group>"; };
+		9BECCE7A2725827E002ECC75 /* MALApiCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALApiCart.swift; sourceTree = "<group>"; };
+		9BECCE7C27258480002ECC75 /* MALCartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALCartViewModel.swift; sourceTree = "<group>"; };
+		9BECCE7E272584F4002ECC75 /* MALCartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALCartModel.swift; sourceTree = "<group>"; };
+		9BECCE81272589C4002ECC75 /* MALApiPro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALApiPro.swift; sourceTree = "<group>"; };
+		9BECCE8527258A83002ECC75 /* MALProModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALProModel.swift; sourceTree = "<group>"; };
+		9BECCE8727258BBB002ECC75 /* MALProViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALProViewModel.swift; sourceTree = "<group>"; };
+		9BECCE8A27259078002ECC75 /* MALApiSms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALApiSms.swift; sourceTree = "<group>"; };
+		9BECCE8C27259233002ECC75 /* MALSmsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALSmsViewModel.swift; sourceTree = "<group>"; };
+		9BECCE8E272592D3002ECC75 /* MALSmsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALSmsModel.swift; sourceTree = "<group>"; };
+		9BECCE902725943F002ECC75 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 		B4D493BD485E9C2CCBC42549 /* Pods-MallProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MallProject.debug.xcconfig"; path = "Target Support Files/Pods-MallProject/Pods-MallProject.debug.xcconfig"; sourceTree = "<group>"; };
 		E2065E45271ADB7B00C0209F /* MALProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MALProductViewController.swift; sourceTree = "<group>"; };
 		E2065E48271AEA6B00C0209F /* MALVideoPackageDetailBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALVideoPackageDetailBottomView.swift; sourceTree = "<group>"; };
@@ -204,6 +242,13 @@
 		9BECCE472723C37C002ECC75 /* NetManager */ = {
 			isa = PBXGroup;
 			children = (
+				9BECCE902725943F002ECC75 /* File */,
+				9BECCE892725904A002ECC75 /* 验证码服务 */,
+				9BECCE802725898F002ECC75 /* 资产管理 */,
+				9BECCE7927258251002ECC75 /* 购物车 */,
+				9BECCE7227257706002ECC75 /* 订单中心 */,
+				9BECCE6B2725591A002ECC75 /* 用户中心 */,
+				9BECCE6427240665002ECC75 /* 首页 */,
 				9BECCE592723DC5F002ECC75 /* login */,
 				9BECCE482723C397002ECC75 /* SZPAPI.swift */,
 				9BECCE492723C397002ECC75 /* SZPAPILogin.swift */,
@@ -223,6 +268,66 @@
 				9BECCE622723E7FF002ECC75 /* MALLoginModel.swift */,
 			);
 			path = login;
+			sourceTree = "<group>";
+		};
+		9BECCE6427240665002ECC75 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				9BECCE6527240690002ECC75 /* MALApiHome.swift */,
+				9BECCE67272406DE002ECC75 /* MALHomeViewModel.swift */,
+				9BECCE6927253419002ECC75 /* MALHomeModel1.swift */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		9BECCE6B2725591A002ECC75 /* 用户中心 */ = {
+			isa = PBXGroup;
+			children = (
+				9BECCE6C2725598E002ECC75 /* MALApiUser.swift */,
+				9BECCE6E27255C8A002ECC75 /* MALUserViewModel.swift */,
+				9BECCE7027255CE9002ECC75 /* MALUserModel.swift */,
+			);
+			path = "用户中心";
+			sourceTree = "<group>";
+		};
+		9BECCE7227257706002ECC75 /* 订单中心 */ = {
+			isa = PBXGroup;
+			children = (
+				9BECCE7327257744002ECC75 /* MALApiOrder.swift */,
+				9BECCE7527257A01002ECC75 /* MALOrderViewModel.swift */,
+				9BECCE7727257AA4002ECC75 /* MALOrderModel.swift */,
+			);
+			path = "订单中心";
+			sourceTree = "<group>";
+		};
+		9BECCE7927258251002ECC75 /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				9BECCE7A2725827E002ECC75 /* MALApiCart.swift */,
+				9BECCE7C27258480002ECC75 /* MALCartViewModel.swift */,
+				9BECCE7E272584F4002ECC75 /* MALCartModel.swift */,
+			);
+			path = "购物车";
+			sourceTree = "<group>";
+		};
+		9BECCE802725898F002ECC75 /* 资产管理 */ = {
+			isa = PBXGroup;
+			children = (
+				9BECCE81272589C4002ECC75 /* MALApiPro.swift */,
+				9BECCE8727258BBB002ECC75 /* MALProViewModel.swift */,
+				9BECCE8527258A83002ECC75 /* MALProModel.swift */,
+			);
+			path = "资产管理";
+			sourceTree = "<group>";
+		};
+		9BECCE892725904A002ECC75 /* 验证码服务 */ = {
+			isa = PBXGroup;
+			children = (
+				9BECCE8A27259078002ECC75 /* MALApiSms.swift */,
+				9BECCE8C27259233002ECC75 /* MALSmsViewModel.swift */,
+				9BECCE8E272592D3002ECC75 /* MALSmsModel.swift */,
+			);
+			path = "验证码服务";
 			sourceTree = "<group>";
 		};
 		E2065E47271AEA2900C0209F /* mallCarViews */ = {
@@ -607,6 +712,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BECCE912725943F002ECC75 /* File in Resources */,
 				E2E7AA1B2704507A00EFE774 /* LaunchScreen.storyboard in Resources */,
 				E2E7AA182704507A00EFE774 /* Assets.xcassets in Resources */,
 				E2E7AA132704507200EFE774 /* Main.storyboard in Resources */,
@@ -681,10 +787,12 @@
 				E2AF6B79271D3882006AA384 /* MALLoginViewController.swift in Sources */,
 				E23AC19527130E5A0023D6E9 /* MALMallCartSubviews.swift in Sources */,
 				E2E7AA102704507200EFE774 /* ViewController.swift in Sources */,
+				9BECCE7127255CE9002ECC75 /* MALUserModel.swift in Sources */,
 				E24F5B142723B8D400847229 /* MALRegisteredAddressViewController.swift in Sources */,
 				9BECCE5B2723DDB3002ECC75 /* MALAes.swift in Sources */,
 				E2D05D31270D4BAC00B51BD6 /* AppManager.swift in Sources */,
 				E2065E46271ADB7C00C0209F /* MALProductViewController.swift in Sources */,
+				9BECCE6A27253419002ECC75 /* MALHomeModel1.swift in Sources */,
 				E2065E52271AF33F00C0209F /* UIView+PPBadgeView.swift in Sources */,
 				E2065E54271AF33F00C0209F /* PPBadgeView.swift in Sources */,
 				E24F5B1227239FAF00847229 /* MALRegisteredNextViewController.swift in Sources */,
@@ -692,31 +800,44 @@
 				E2065E49271AEA6B00C0209F /* MALVideoPackageDetailBottomView.swift in Sources */,
 				E2D05D38270D4D8400B51BD6 /* MALUIKitExtension.swift in Sources */,
 				E2D05D22270D45C100B51BD6 /* MALTabBarViewController.swift in Sources */,
+				9BECCE7B2725827E002ECC75 /* MALApiCart.swift in Sources */,
 				E2D05D40270D569500B51BD6 /* MALHomeViewController.swift in Sources */,
 				E2D05D59270D789D00B51BD6 /* UIViewExtension.swift in Sources */,
 				E2065E5A271B173700C0209F /* MALHomeModel.swift in Sources */,
 				E2065E55271AF33F00C0209F /* PPBadgeControl.swift in Sources */,
 				E2D05D43270D59BA00B51BD6 /* MALMallCartViewController.swift in Sources */,
 				E2065E56271AF33F00C0209F /* UITabBarItem+PPBadgeView.swift in Sources */,
+				9BECCE6627240690002ECC75 /* MALApiHome.swift in Sources */,
+				9BECCE8627258A84002ECC75 /* MALProModel.swift in Sources */,
+				9BECCE8B27259078002ECC75 /* MALApiSms.swift in Sources */,
 				E2D05D54270D6F0800B51BD6 /* MALMallModel.swift in Sources */,
 				E20A8D272721CA31003E0D0F /* MALRegisterAgreeView.swift in Sources */,
+				9BECCE6D2725598E002ECC75 /* MALApiUser.swift in Sources */,
 				E2D05D29270D474000B51BD6 /* NSUserDefaultsExtension.swift in Sources */,
 				9BECCE562723D87C002ECC75 /* SZPMoyaConfig.swift in Sources */,
 				E2D05D2B270D47F700B51BD6 /* UIColorExtension.swift in Sources */,
 				E2065E4B271AF14C00C0209F /* MALWebViewController.swift in Sources */,
+				9BECCE7D27258480002ECC75 /* MALCartViewModel.swift in Sources */,
 				E2D05D33270D4CA900B51BD6 /* MALFoundationExtension.swift in Sources */,
+				9BECCE8D27259233002ECC75 /* MALSmsViewModel.swift in Sources */,
 				E2D05D2D270D496700B51BD6 /* MALBaseViewController.swift in Sources */,
+				9BECCE7627257A01002ECC75 /* MALOrderViewModel.swift in Sources */,
 				E2D05D49270D6D8E00B51BD6 /* MALBannerScrollView.swift in Sources */,
 				9BECCE552723D879002ECC75 /* SZPNetworkManager.swift in Sources */,
+				9BECCE7827257AA4002ECC75 /* MALOrderModel.swift in Sources */,
 				E2E7AA162704507200EFE774 /* MallProject.xcdatamodeld in Sources */,
+				9BECCE82272589C4002ECC75 /* MALApiPro.swift in Sources */,
 				9BECCE612723E672002ECC75 /* MALLoginViewModel.swift in Sources */,
 				E2D05D5E270D7F0C00B51BD6 /* MALRecommendedProductsView.swift in Sources */,
 				E2D05D57270D77C300B51BD6 /* MALHomeCourseView.swift in Sources */,
 				E2065E62271BCBEE00C0209F /* SZPUISearchBarExtension.swift in Sources */,
+				9BECCE6F27255C8A002ECC75 /* MALUserViewModel.swift in Sources */,
 				9BECCE5F2723E194002ECC75 /* MALAPILogin.swift in Sources */,
 				E2065E5D271B342200C0209F /* MALSearchViewController.swift in Sources */,
+				9BECCE7427257744002ECC75 /* MALApiOrder.swift in Sources */,
 				E2D05D51270D6E9600B51BD6 /* ZPageControl.swift in Sources */,
 				E20A8D2D27227A97003E0D0F /* MALRegistereMembersVController.swift in Sources */,
+				9BECCE7F272584F4002ECC75 /* MALCartModel.swift in Sources */,
 				E2065E58271B0E8700C0209F /* MALRecomListViewController.swift in Sources */,
 				E2D05D50270D6E9600B51BD6 /* ZCycleLayout.swift in Sources */,
 				E20A8D292721CD5D003E0D0F /* MALAutoProgressHUD.swift in Sources */,
@@ -729,6 +850,9 @@
 				E2D05D60270D80FC00B51BD6 /* MALButtonExtension.swift in Sources */,
 				E2D05D4F270D6E9600B51BD6 /* ZCycleView.swift in Sources */,
 				E2D05D46270D5C1800B51BD6 /* MALMyViewController.swift in Sources */,
+				9BECCE68272406DE002ECC75 /* MALHomeViewModel.swift in Sources */,
+				9BECCE8F272592D4002ECC75 /* MALSmsModel.swift in Sources */,
+				9BECCE8827258BBB002ECC75 /* MALProViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,8 +16,7 @@ class MALHomeViewController: MALBaseViewController {
         debugPrint("MALHomeViewController销毁")
        
     }
-
-
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

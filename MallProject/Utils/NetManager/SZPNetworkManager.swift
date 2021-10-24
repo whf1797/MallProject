@@ -127,7 +127,7 @@ private func netWorkRequest(_ target: TargetType,
             do {
                 let jsonData = try JSON(data: response.data)
                   debugPrint("====",target.path)
-                 print("返回的结果是: \(jsonData)")
+                 print("返回的结果是11: \(jsonData)")
                 let respModel = ResponseModel()
 
                 if !validateResponse(response: jsonData.dictionary, needShowFailAlert: needShowFailAlert, target.path, failure: failureCallback) {
@@ -136,12 +136,23 @@ private func netWorkRequest(_ target: TargetType,
 
                         respModel.code = code
                     }
-                    if let msg = jsonData.dictionaryValue["msg"]?.rawValue as? String {
-
+                    if let msg = jsonData.dictionaryValue["message"]?.rawValue as? String {
+                        
                         respModel.message = msg
                     }
+                
+                    if let data = jsonData.dictionaryValue["data"]?.rawValue as? Dictionary<String, Any> {
+                        let x = try? JSONSerialization.data(withJSONObject: data, options: [])
+                        let str = String(data: x!, encoding: .utf8)
+                        
+                        respModel.data = str!
+                    }
+                    
+                    
+           
                     successCallback(respModel)
-                    return }
+                    return
+                }
                 /// 这里的 500的code码 需要根据具体业务来设置
                 respModel.code = jsonData[codeKey].int ?? 500
                 respModel.message = jsonData[messageKey].stringValue

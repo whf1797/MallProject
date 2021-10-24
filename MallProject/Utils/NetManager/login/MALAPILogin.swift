@@ -41,14 +41,10 @@ extension MALAPILogin: TargetType {
     
     var task: Task {
         var parameters: [String:Any] = [:]
-//        loginType: 0
-//        password: "123"
-//        smsCode: "123"
-//        userCode: "123"
         switch self {
         case let .loginWithPwd(pwd, userCode , userType):
             print("密码登录")
-            parameters["loginType"] = "1"
+            parameters["loginType"] = userType.rawValue
             parameters["password"] = pwd
             parameters["userCode"] = userCode
             
@@ -58,17 +54,14 @@ extension MALAPILogin: TargetType {
             parameters["smsCode"] = sms
             parameters["userCode"] = userCode
         }
-//        return .requestCompositeParameters(bodyParameters: parameters, bodyEncoding: URLEncoding.default, urlParameters: [:])
-//        return .requestCompositeData(bodyData: <#T##Data#>, urlParameters: <#T##[String : Any]#>)
-        return .requestParameters(parameters: parameters, encoding: URLEncoding.httpBody)
+
+        return .requestParameters(parameters: parameters, encoding: JSONEncoding.default)
+        
     }
     
     var headers: [String : String]? {
         var dict: [String: String] = [:]
-        
-        
-        dict = ["Content-Type":"application/json"]
-//        dict["APP-Token"] =  "" //
+        dict = ["Content-Type":"application/json;charset=UTF-8"]
         dict["test"] = "%^%$7"
        
         return dict

@@ -7,7 +7,15 @@
 
 import UIKit
 ///推荐产品ListView
+
+extension MALHomeViewModel {
+    static let `default` = MALHomeViewModel.init()
+}
+
 class MALRecommendedProductsView: UIView {
+    
+    var homeVM = MALHomeViewModel.default
+    
     
     deinit {
         debugPrint("MALRecommendedProductsView销毁")
@@ -28,6 +36,21 @@ class MALRecommendedProductsView: UIView {
         courseView.snp.makeConstraints { (make) in
             make.edges.equalToSuperview()
         }
+        
+        
+        #if DEBUG
+        
+        #else
+        homeVM.getHomeGoodInfo {[weak self] in
+            guard let weakSelf = self else {
+                return
+            }
+            weakSelf.courseView.reloadData()
+        }
+        #endif
+        
+
+
     }
     
     required init?(coder: NSCoder) {
@@ -72,7 +95,12 @@ extension MALRecommendedProductsView: UICollectionViewDelegate, UICollectionView
         
         cell.loadCell()
       
-    
+        guard let model = homeVM.getGood(at: indexPath.row) else {
+            
+            return cell
+        }
+        
+        cell.updateCell(with: model)
         return cell
         
     }
@@ -95,7 +123,7 @@ extension MALRecommendedProductsView: UICollectionViewDelegate, UICollectionView
         return 1
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return homeVM.getGoodCount()
     }
     
 
@@ -134,6 +162,13 @@ class SZPHomtHotCourseCell: UICollectionViewCell {
         
     }
     
+    
+    func updateCell(with model:MALHomeGoodModel) {
+        let attrstring:NSMutableAttributedString = NSMutableAttributedString(string:String(model.price ?? 0) ?? "")
+        attrstring.addAttribute(NSAttributedString.Key.font, value: UIFont.systemFont(ofSize:18), range: NSRange.init(location: 0, length: attrstring.length))
+        priceLabel.attributedText = attrstring
+        titleLabel.text = model.goodsName
+    }
     
     
     override func layoutSubviews() {

@@ -40,12 +40,46 @@ class MALBaseViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         let aes = MALAes.Encode_AES_ECB(strToEncode: "abc")
-        print("ses === ", aes)
         
-        MALLoginViewModel.init().loginWithPwd(pwd: "123", userCode: "123", userType: .user) { str in
+        // 测试接口
+//        MALUserViewModel.init().getAddressList(curPage: 0, pageSize: 1)
+//        MALUserViewModel.init().getUserInfo {
+//        }
+        
+//        MALUserViewModel.init().getInviteList(curPage: 1, pageSize: 1) {
+//
+//        }
+        // 获取顶点列表
+//        MALOrderViewModel.init().getOrderList(curPage: 1, pageSize: 10, key: "1", status: .Payed) {
+//
+//        }
+        
+//        let param = MALMakeOrderParamModel.init(id: 0, num: 0)
+//        // 确定顶点
+//        MALOrderViewModel.init().createOrder(addressId: 0, payType: .GWB, list: [param]) {
+//
+//        }
+        
+//        MALCartViewModel.init().getCartList(curPage: 1, pageSize: 10) {
+//
+//        }
+//        MALProViewModel.init().reqProList(type: .GWBList, curPage: 1, pageSize: 10) {
+//
+//        }
+        
+        
+//        MALProViewModel.init().reqDrawal(param: MALDrawalParam.init(bankName: "", cardNo: "", cashAmt: 1, realName: "", secPwd: "", smsCode: "")) {
+//
+//        }
+        
+        MALSmsViewModel.init().reqPicSms {
+
         }
         
-  
+//        MALSmsViewModel.init().reqCodeSms(type: .CashOut, mobile: "", userCode: "") {
+//            
+//        }
+        
         view.backgroundColor = UIColor.AppColor.searchBgColor
 
         view.addSubview(navigationView)
