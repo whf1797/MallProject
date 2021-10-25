@@ -16,21 +16,7 @@ class MALRegsiterCompleteViewController: MALBaseViewController {
         view.addSubview(tempTopView)
         tempTopView.loadTitle("注册会员",UIColor.white)
         view.backgroundColor = .white
-        view.addSubview(titleShow)
-        
-        tempTopView.snp.remakeConstraints { make in
-            
-            make.left.right.top.equalToSuperview()
-            make.height.equalTo(kNavigationBarHeight)
-          
-        }
-        
-        titleShow.snp.remakeConstraints { make in
-        
-            make.left.equalToSuperview().offset(MAL_Value(15))
-            make.top.equalTo(tempTopView.snp.bottom).offset(MAL_Value(20))
-            
-        }
+
         
 
     }
@@ -44,15 +30,7 @@ class MALRegsiterCompleteViewController: MALBaseViewController {
         return view
     }()
     
-    lazy var  complyView: UIImageView = {
-        
-        let view = UIImageView.init()
-        
-        view.
-        
-        
-        
-    }()
+  
     
 
 
