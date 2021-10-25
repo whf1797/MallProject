@@ -52,6 +52,8 @@
 		E23AC19527130E5A0023D6E9 /* MALMallCartSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AC19427130E5A0023D6E9 /* MALMallCartSubviews.swift */; };
 		E24F5B1227239FAF00847229 /* MALRegisteredNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F5B1127239FAF00847229 /* MALRegisteredNextViewController.swift */; };
 		E24F5B142723B8D400847229 /* MALRegisteredAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F5B132723B8D400847229 /* MALRegisteredAddressViewController.swift */; };
+		E24F5B1627242ADF00847229 /* MALRegsiterdCorrespondingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F5B1527242ADF00847229 /* MALRegsiterdCorrespondingVC.swift */; };
+		E24F5B1827251CB900847229 /* MALRegsiterCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F5B1727251CB900847229 /* MALRegsiterCompleteViewController.swift */; };
 		E2AF6B79271D3882006AA384 /* MALLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF6B78271D3882006AA384 /* MALLoginViewController.swift */; };
 		E2D05D22270D45C100B51BD6 /* MALTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D05D21270D45C100B51BD6 /* MALTabBarViewController.swift */; };
 		E2D05D25270D46A100B51BD6 /* MALPredefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D05D24270D46A100B51BD6 /* MALPredefine.swift */; };
@@ -154,6 +156,8 @@
 		E23AC19427130E5A0023D6E9 /* MALMallCartSubviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MALMallCartSubviews.swift; sourceTree = "<group>"; };
 		E24F5B1127239FAF00847229 /* MALRegisteredNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALRegisteredNextViewController.swift; sourceTree = "<group>"; };
 		E24F5B132723B8D400847229 /* MALRegisteredAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALRegisteredAddressViewController.swift; sourceTree = "<group>"; };
+		E24F5B1527242ADF00847229 /* MALRegsiterdCorrespondingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALRegsiterdCorrespondingVC.swift; sourceTree = "<group>"; };
+		E24F5B1727251CB900847229 /* MALRegsiterCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALRegsiterCompleteViewController.swift; sourceTree = "<group>"; };
 		E2AF6B78271D3882006AA384 /* MALLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALLoginViewController.swift; sourceTree = "<group>"; };
 		E2D05D21270D45C100B51BD6 /* MALTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MALTabBarViewController.swift; sourceTree = "<group>"; };
 		E2D05D24270D46A100B51BD6 /* MALPredefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MALPredefine.swift; sourceTree = "<group>"; };
@@ -381,6 +385,8 @@
 				E20A8D2C27227A97003E0D0F /* MALRegistereMembersVController.swift */,
 				E24F5B1127239FAF00847229 /* MALRegisteredNextViewController.swift */,
 				E24F5B132723B8D400847229 /* MALRegisteredAddressViewController.swift */,
+				E24F5B1527242ADF00847229 /* MALRegsiterdCorrespondingVC.swift */,
+				E24F5B1727251CB900847229 /* MALRegsiterCompleteViewController.swift */,
 			);
 			path = registeredViews;
 			sourceTree = "<group>";
@@ -795,6 +801,7 @@
 				9BECCE6A27253419002ECC75 /* MALHomeModel1.swift in Sources */,
 				E2065E52271AF33F00C0209F /* UIView+PPBadgeView.swift in Sources */,
 				E2065E54271AF33F00C0209F /* PPBadgeView.swift in Sources */,
+				E24F5B1827251CB900847229 /* MALRegsiterCompleteViewController.swift in Sources */,
 				E24F5B1227239FAF00847229 /* MALRegisteredNextViewController.swift in Sources */,
 				E2D05D63270DD8FF00B51BD6 /* MALMyTopView.swift in Sources */,
 				E2065E49271AEA6B00C0209F /* MALVideoPackageDetailBottomView.swift in Sources */,
@@ -802,6 +809,7 @@
 				E2D05D22270D45C100B51BD6 /* MALTabBarViewController.swift in Sources */,
 				9BECCE7B2725827E002ECC75 /* MALApiCart.swift in Sources */,
 				E2D05D40270D569500B51BD6 /* MALHomeViewController.swift in Sources */,
+				E24F5B1627242ADF00847229 /* MALRegsiterdCorrespondingVC.swift in Sources */,
 				E2D05D59270D789D00B51BD6 /* UIViewExtension.swift in Sources */,
 				E2065E5A271B173700C0209F /* MALHomeModel.swift in Sources */,
 				E2065E55271AF33F00C0209F /* PPBadgeControl.swift in Sources */,

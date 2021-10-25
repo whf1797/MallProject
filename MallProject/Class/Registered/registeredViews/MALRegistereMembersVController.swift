@@ -6,7 +6,7 @@
 //
 
 import UIKit
-/// 注册会员第一步VC
+/// 注册会员第二步VC
 class MALRegistereMembersVController: MALBaseViewController {
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
