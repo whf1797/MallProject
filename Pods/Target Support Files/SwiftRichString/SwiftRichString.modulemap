@@ -1,0 +1,6 @@
+module SwiftRichString {
+  umbrella header "SwiftRichString-umbrella.h"
+
+  export *
+  module * { export * }
+}
